@@ -1,4 +1,4 @@
-# Monkey_Peach2
+# Monkey_Peach
 <h1>猴子吃桃问题</h1>
 
 <p>采用C语言编写，递归算法</p>
