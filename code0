@@ -1,0 +1,36 @@
+#include <stdio.h>
+int main()
+{
+ 
+    int n=10;
+    int m=1;
+    printf("%d",sum(n,m));
+
+}
+
+int sum(int n,int m)        //m为最后一天的初值，n为所求前几天的数据
+{
+
+    if(n==0)
+    {
+
+        return m;
+    }
+    else
+    {
+        m=(m+1)*2;
+        n--;
+
+    }
+    if(n==0)
+    {
+
+        return m;
+
+    }
+    else
+    {
+
+        m=sum(n,m);
+    }
+}
